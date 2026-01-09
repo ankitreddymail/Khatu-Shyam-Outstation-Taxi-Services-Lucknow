@@ -4,9 +4,6 @@
 
 This is a professional, conversion-focused landing page for Khatu Shyam Outstation Taxi Services based in Lucknow, Uttar Pradesh. The website is designed to be simple, honest, and ready for immediate deployment with Google Ads traffic.
 
-## Link Visit site 
-https://ankitreddymail.github.io/Khatu-Shyam-Outstation-Taxi-Services-Lucknow/
-
 ## Features
 
 - **Single-Page Design**: Clean, focused landing page with all essential information
@@ -211,4 +208,3 @@ This website is created for Khatu Shyam Outstation Taxi Services Lucknow. All co
 **Version**: 1.0  
 **Last Updated**: January 2026  
 **Status**: ✅ Production Ready
-
