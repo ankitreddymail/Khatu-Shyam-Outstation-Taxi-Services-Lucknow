@@ -435,6 +435,97 @@ section {
     line-height: 1.6;
 }
 
+/* Tours Section */
+.tours {
+    background-color: var(--bg-white);
+}
+
+.tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+    .tours-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.tour-card {
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tour-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary-light);
+}
+
+.tour-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+}
+
+.tour-duration {
+    font-size: 0.875rem;
+    color: var(--text-gray);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tour-description {
+    color: var(--text-gray);
+    line-height: 1.6;
+    font-size: 0.9375rem;
+    flex-grow: 1;
+}
+
+.tour-price {
+    font-size: 1rem;
+    color: var(--text-gray);
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.tour-price .price-amount {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.tour-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+@media (min-width: 480px) {
+    .tour-actions {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .tour-actions .btn {
+        flex: 1;
+    }
+}
+
 /* Fleet Section */
 .fleet {
     background-color: var(--bg-white);
